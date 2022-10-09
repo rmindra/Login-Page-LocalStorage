@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Register</h1>
+      <form onsubmit="register()">
+        <div class="txt_field">
+          <input type="text" id="username" required />
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" id="password" required />
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="radio">
+          <span>Role:</span>
+          <br>
+          <input type="radio" id="admin" name="role" value="Admin"> <label for="admin"> Admin</label>
+          <br>
+	        <input type="radio" id="normal" name="role" value="Normal"> <label for="normal"> User</label>
+        </div>
+        <div></div>
+        <input type="submit" value="Register" />
+      </form>
+      <div class="bottom">
+        <div class="signup_link">Have account? <a href="index.html">Login</a></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
