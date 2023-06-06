@@ -1,4 +1,4 @@
-# Login_Register_Logout-with-LocalStorage
+# Login, Register, Logout with Local Storage
 ### Login Form, Register Form, Different Page for Different User and Logout Button
 
 Using localStorage...<br>
