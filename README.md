@@ -3,3 +3,4 @@
 
 Using localStorage...
 Link to website : https://Sesi5Cuyuniversity-LoginForm.itlc.repl.co
+Alternative link : https://rmindra.github.io/Login_Register_Logout-with-LocalStorage/
